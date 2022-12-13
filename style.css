@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+
+:root {
+  --Pink: hsl(322, 100%, 66%);
+  --Light-Pink: hsl(321, 100%, 78%);
+  --Light-Red: hsl(0, 100%, 63%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+/* CSS RESET */
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 16px;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.main-container {
+  min-width: 250px;
+  max-width: 400px;
+  margin: 2em 1em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+.logo {
+  flex-basis: 30%;
+}
+
+.btn {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 0.5em 2em;
+}
+
+.nav-button {
+  border: 1px solid var(--Light-Pink);
+  color: var(--Light-Pink);
+}
+
+.text-container {
+  text-align: center;
+  padding: 1em;
+  /* margin-bottom: 2em; */
+}
+
+.header h1 {
+  color: var(--Very-Dark-Cyan);
+  margin-bottom: 1em;
+}
+.header p {
+  font-family: initial;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 2em;
+}
+
+.heading-button {
+  border: none;
+  color: #fff;
+  background-color: var(--Pink);
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  padding: 1em 3em;
+  border-radius: 30px;
+  margin-bottom: 7em;
+}
+
+.achiements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5em;
+  /* padding: 2em; */
+}
+
+.ach {
+  width: 100%;
+  /* padding: ; */
+  margin-bottom: 5em;
+}
+
+.ach h2 {
+  font-family: "Poppins", sans-serif;
+  font-family: 700;
+  font-size: 3rem;
+  text-align: center;
+  color: var(--Very-Dark-Cyan);
+}
+
+.ach p {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 100;
+  color: grey;
+}
+
+.ach img {
+  position: relative;
+  left: -51px;
+  width: 7%;
+}
+
+.growth {
+  margin-bottom: 8em;
+}
+
+.growth img {
+  margin-bottom: 2em;
+}
+
+.growth h2 {
+  color: var(--Very-Dark-Cyan);
+  margin-bottom: 0.75em;
+}
+
+.growth p {
+  font-family: "Open Sans", sans-serif;
+  color: var(--Very-Dark-Cyan);
+  font-weight: 500;
+}
+
+.conv {
+  margin-bottom: 8em;
+}
+
+.conv h2,
+.users h2 {
+  margin-bottom: 1em;
+}
+
+.conv p,
+.users p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.users {
+  margin-bottom: 8em;
+}
+
+.ready {
+  margin-bottom: 5em;
+}
+
+.ready h2 {
+  color: var(--Very-Dark-Cyan);
+  margin-bottom: 1.5em;
+}
+
+.bottom-section {
+  color: #fff;
+  /* width: 100vw; */
+  margin: 0em -1em;
+  padding: 1em 2em;
+  background-color: var(--Very-Dark-Cyan);
+  /* background-color: rgb(209, 26, 26); */
+
+  /* background-blend-mode: screen; */
+  /* background-repeat: no-repeat; */
+
+  /* background-clip: content-box; */
+  background-position: top;
+  position: relative;
+  z-index: 1;
+}
+
+.curved {
+  background-image: url(/images/bg-footer-top-mobile.svg);
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 110vw; */
+  margin: 0em -1em;
+}
+
+.bottom-section p {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  /* margin-bottom: em; */
+}
+
+#email {
+  margin: 2em 0;
+  border: none;
+  border-radius: 0.75em;
+  width: 100%;
+  padding: 1.5em 2em;
+  /* display: block; */
+}
+
+.border-btn {
+  border-radius: 10px;
+  font-weight: 700;
+  position: relative;
+  left: 62%;
+}
+
+.logo-bottom {
+  width: 60%;
+  margin-bottom: 1em;
+  filter: invert(100%);
+}
+
+.bottom-last p {
+  margin-bottom: 2em;
+}
+
+.icons {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+  width: 70%;
+}
+.icons img {
+  width: 15px;
+}
+.s1 {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1em;
+  align-items: center;
+}
