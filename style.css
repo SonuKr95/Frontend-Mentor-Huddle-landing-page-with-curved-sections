@@ -202,11 +202,12 @@ body {
 
 .curved {
   background-image: url(/images/bg-footer-top-mobile.svg);
-  height: 50px;
+  height: 65px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: color;
   /* width: 110vw; */
-  margin: 0em -1em;
+  margin: -1em;
 }
 
 .bottom-section p {
@@ -257,4 +258,115 @@ body {
   gap: 1em;
   margin-bottom: 1em;
   align-items: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 600px) {
+  .main-container {
+    max-width: 550px;
+  }
+
+  .header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header p {
+    max-width: 500px;
+  }
+  .header img {
+    max-width: 80%;
+  }
+
+  .achiements {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .text-container {
+    text-align: start;
+  }
+  .dw {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 50px;
+    /* max-width: 100%; */
+  }
+  .text {
+    width: 500px;
+  }
+
+  .dw img {
+    width: 564px;
+    order: 2;
+    /* flex-basis: ; */
+  }
+  .conv img {
+    order: 1;
+    /* flex-basis: ; */
+  }
+  .conv .text {
+    order: 2;
+    /* flex-basis: ; */
+  }
+
+  .ready {
+    text-align: center;
+  }
+
+  .curved {
+    background-image: url(/images/bg-footer-top-desktop.svg);
+    height: 158px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 110vw; */
+    margin: -2em -1em;
+  }
+  .bottom-section {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .text-bottom {
+    order: 2;
+    flex-basis: 30%;
+  }
+  .bottom-last {
+    /* order: 2; */
+    flex-basis: 27%;
+  }
+  #email {
+    padding: 1.5em;
+    /* display: inline; */
+    /* left: 90%; */
+  }
+
+  .border-btn {
+    left: 102%;
+    bottom: 5.5em;
+  }
+  /* .dw h2,
+  .dw p {
+    display: inline; */
+  /* order: 2;
+    flex-basis: 200px; */
+}
+@media screen and (min-width: 800px) {
+  .main-container {
+    max-width: 750px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .main-container {
+    max-width: 950px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-container {
+    max-width: 1100px;
+  }
 }
