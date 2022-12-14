@@ -203,7 +203,7 @@ body {
 }
 
 .curved {
-  background-image: url(/images/bg-footer-top-mobile.svg);
+  background-image: url(images/bg-footer-top-mobile.svg);
   height: 65px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -338,7 +338,7 @@ body {
   }
 
   .curved {
-    background-image: url(/images/bg-footer-top-desktop.svg);
+    background-image: url(images/bg-footer-top-desktop.svg);
     height: 120px;
     background-repeat: no-repeat;
     background-size: contain;
